@@ -16,6 +16,7 @@ _This is my first webpage - Epicodus exercise._
 ## Technologies Used
 
 _HTML_
+_CSS_
 
 ### License
 

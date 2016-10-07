@@ -1,21 +1,114 @@
-h1 {
-  color: gray;
-  font-family: sans-serif;
-  text-align: center;
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
 h2 {
-  color: red;
-  font-family: fantasy;
+  margin-top: 5px;
+  margin-bottom: 50px;
+
+  font-size: 18px;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  margin-top: 40px;
+
+  color: darkorchid;
+  font-size: 28px;
+  font-family: 'Pacifico', cursive;
+}
+
+ol {
+  margin-left: 30px;
+  margin-top: 20px;
+
+  color: darkorchid;
+  font-size: 16px;
+}
+
+footer {
   text-align: center;
-}
-
-p {
-  font-family: sans-serif;
-}
-
-ul {
   font-style: italic;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 2px solid gray;
+}
+
+/* Jumbotron */
+
+.jumbotron p {
+  margin: 0;
+  margin-bottom: 20px;
+
+  font-size: 16px;
+}
+
+.jumbotron ul {
+  margin: 20px;
+}
+
+/* Classes */
+.people li {
+  list-style: none;
+}
+
+.people img {
+  width: 60px;
+
+  margin: 10px;
+  border-radius: 100%;
+}
+
+/* ID's */
+/* Logo */
+#logo {
+  color: orange;
   font-size: 25px;
-  line-height: 35px;
+  font-family: 'Pacifico', cursive;
+}
+
+#logo span {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Helvetica', sans-serif;
+}
+
+/* Title */
+#title {
+  margin-top: 50px;
+  margin-bottom: 0;
+
+  color: darkorchid;
+  font-size: 42px;
+  line-height: 42px;
+}
+
+/* Images */
+#epicodus {
+  width: 100px;
+
+  margin-top: 20px;
+}
+
+#ice-cream {
+  width: 400px;
+
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+#places {
+  width: 100%;
+
+  margin-top: 20px;
+  border-radius: 15px;
 }
